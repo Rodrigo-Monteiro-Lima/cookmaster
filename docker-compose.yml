@@ -45,6 +45,8 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=password
     restart: 'always'
+    volumes:
+      - ./backend/src/database/cookmaster.sql:/docker-entrypoint-initdb.d/cookmaster.sql
     healthcheck:
       test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
       timeout: 10s
