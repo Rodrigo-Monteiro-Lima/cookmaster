@@ -1,4 +1,4 @@
-import RecipesModel from "../models/Recipe.Model";
+import RecipesModel from "../models/Recipes.Model";
 
 export default class RecipesService {
   #model: RecipesModel;

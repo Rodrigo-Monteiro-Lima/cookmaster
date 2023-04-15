@@ -1,7 +1,7 @@
 import * as sinon from 'sinon';
 import * as chai from 'chai';
 import { describe } from 'mocha';
-import RecipesModel from '../../../src/models/Recipe.Model';
+import RecipesModel from '../../../src/models/Recipes.Model';
 import RecipesService from '../../../src/services/Recipes.Service';
 import { allRecipes } from '../../mocks/recipes.mock';
 import chaiAsPromised from 'chai-as-promised';

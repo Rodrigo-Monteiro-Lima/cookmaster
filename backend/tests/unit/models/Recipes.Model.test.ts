@@ -3,7 +3,7 @@ import * as chai from 'chai';
 import { describe } from 'mocha';
 import { allRecipes, allRecipesDbResponse } from '../../mocks/recipes.mock';
 import connection from '../../../src/models/connection';
-import RecipesModel from '../../../src/models/Recipe.Model';
+import RecipesModel from '../../../src/models/Recipes.Model';
 
 const { expect } = chai;
 
