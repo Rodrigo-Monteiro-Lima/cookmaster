@@ -27,6 +27,7 @@
     "@types/mocha": "^10.0.1",
     "@types/node": "^18.15.11",
     "@types/sequelize": "^4.28.14",
+    "@types/sinon": "^10.0.13",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "chai": "^4.3.7",
     "chai-as-promised": "^7.1.1",
@@ -39,6 +40,7 @@
     "mocha": "^10.2.0",
     "nodemon": "^2.0.22",
     "nyc": "^15.1.0",
+    "sinon": "^15.0.3",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.0.4"
   }
