@@ -44,6 +44,8 @@ services:
       - 3306:3306
     environment:
       - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_CHARSET=utf8mb4
+      - MYSQL_INITDB_CHARSET=utf8mb4
     restart: 'always'
     volumes:
       - ./backend/src/database/cookmaster.sql:/docker-entrypoint-initdb.d/cookmaster.sql
