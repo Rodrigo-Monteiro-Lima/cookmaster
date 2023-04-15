@@ -1,7 +1,7 @@
 import * as sinon from 'sinon';
 import * as chai from 'chai';
 import { describe } from 'mocha';
-import { allRecipes, allRecipesDbResponse } from '../../mocks/recipe.mock';
+import { allRecipes, allRecipesDbResponse } from '../../mocks/recipes.mock';
 import connection from '../../../src/models/connection';
 import RecipesModel from '../../../src/models/Recipe.Model';
 
